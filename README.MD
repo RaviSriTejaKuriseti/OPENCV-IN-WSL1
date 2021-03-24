@@ -20,7 +20,7 @@ Create a unix username and password.Your distro will be in the home directory by
 mnt/c/Users/"Your Windows username"/desktop
 ```
 
-For ease of convinience use Windows Terminal that can be downloaded from this link.<br>
+For ease of convenience use Windows Terminal that can be downloaded from this link.<br>
 [Windows Terminal](https://www.microsoft.com/en-in/p/windows-terminal/9n0dx20hk701?rtc=1#activetab=pivot:overviewtab)
 
 <b><u>Step-3</u></b>:<br>
