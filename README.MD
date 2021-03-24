@@ -210,14 +210,14 @@ Use the polygon.cpp in this repository to test and you will see output as provid
 
 Compile and execute the code using following commands<br>
 ```C
-g++ filename.cpp -o a -pthread -std=c++11 `pkg-config --cflags --libs opencv4`
+g++ polygon.cpp -o a -pthread -std=c++11 `pkg-config --cflags --libs opencv4`
 ./a
 ```
 
 If above command doesn't work use
 
 ```C
-g++ filename.cpp -o a -pthread -std=c++11 `pkg-config --cflags --libs opencv`
+g++ polygon.cpp -o a -pthread -std=c++11 `pkg-config --cflags --libs opencv`
 ./a
 ```
  
