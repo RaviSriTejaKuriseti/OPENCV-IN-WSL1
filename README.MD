@@ -206,7 +206,7 @@ For testing opencv open the Xlaunch and follow step-4B for setting display numbe
 ```C
 export DISPLAY=:0
 ```
-Use the polygon.cpp in this repository to test and you will see output as provided in output.jpg
+Use the polygon.cpp in this repository to test and you will see output.jpg and output1.jpg provided in this repo.
 
 Compile and execute the code using following commands<br>
 ```C
@@ -221,5 +221,5 @@ g++ polygon.cpp -o a -pthread -std=c++11 `pkg-config --cflags --libs opencv`
 ./a
 ```
  
-You will see the corresponding display.
+
 
