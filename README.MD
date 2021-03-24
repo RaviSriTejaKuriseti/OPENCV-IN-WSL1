@@ -57,9 +57,8 @@ Press next and you will see the following screen.<br>
 [Screen-3](https://miro.medium.com/max/998/1*d8ArTA3ISw1skKU0HMWIow.png)<br>
 Press next and you will see the following screen.<br>
 [Screen-4](https://linustechtips.com/uploads/monthly_2018_10/image.png.a6c5330fd54e484006cc748cb93c5554.png)<br>
-Now press Finish.
-
-Now open the terminal and press the command.<br>
+Now press <b>Finish</b>.<br>
+Now open the terminal and press the commands.<br>
 
 ```C
 export DISPLAY=:0
