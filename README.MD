@@ -53,14 +53,14 @@ To check whether the X-server is working or not open the X-Launch app.You will s
 
 Change the number -1 to 0 and press on next button.<br>
 You will see the following screen.<br>
-[Screen-2](https://lh3.googleusercontent.com/proxy/xZBOO6GL79i8NTAeBMKykL_5ugR-oc9CKWoZ22UDQdiidaaz5Yi2Pg4AGcnJ9TQAen1zl9Qxg5qcfF1pWZiBNNoGVpAzrQgOd5o8SLq8Sg)
-Press next and you will see the following screen.
-[Screen-3](https://miro.medium.com/max/998/1*d8ArTA3ISw1skKU0HMWIow.png).
-Press next and you will see the following screen.
-[Screen-4](https://linustechtips.com/uploads/monthly_2018_10/image.png.a6c5330fd54e484006cc748cb93c5554.png).
+[Screen-2](https://lh3.googleusercontent.com/proxy/xZBOO6GL79i8NTAeBMKykL_5ugR-oc9CKWoZ22UDQdiidaaz5Yi2Pg4AGcnJ9TQAen1zl9Qxg5qcfF1pWZiBNNoGVpAzrQgOd5o8SLq8Sg)<br>
+Press next and you will see the following screen.<br>
+[Screen-3](https://miro.medium.com/max/998/1*d8ArTA3ISw1skKU0HMWIow.png)<br>
+Press next and you will see the following screen.<br>
+[Screen-4](https://linustechtips.com/uploads/monthly_2018_10/image.png.a6c5330fd54e484006cc748cb93c5554.png)<br>
 Now press Finish.
 
-Now open the terminal and press the command.
+Now open the terminal and press the command.<br>
 
 ```C
 export DISPLAY=:0
@@ -68,11 +68,11 @@ xeyes
 ```
 
 You will see the following image.
-[xeyes](https://seanthegeek.net/wp-content/uploads/2017/06/xeyes-bash-ubuntu-windows-10.png).
+[xeyes](https://seanthegeek.net/wp-content/uploads/2017/06/xeyes-bash-ubuntu-windows-10.png).<br>
 
 <b><u>Step-5</u></b>:<br>
 
-Install required and optional dependencies.
+Install required and optional dependencies.<br>
 
 ```C
 sudo apt install build-essential cmake git pkg-config libgtk-3-dev 
@@ -84,7 +84,7 @@ sudo apt install build-essential cmake git pkg-config libgtk-3-dev
 
 <b><u>Step-6A</u></b>:<br>
 
-Clone the git repos of OPEN-CV.This method by default installs latest version which can possibly be in development stages.
+Clone the git repos of OPEN-CV.This method by default installs latest version which can possibly be in development stages.<br>
 For installing particular version say 4.5.1 directly go to Step-6B.Follow only 6A or 6B<br>
 
 ```C
@@ -119,14 +119,14 @@ cd ~/opencv_build
 
 <b><u>Step-7</u></b>:<br>
 
-Create a temporary build system. 
+Create a temporary build system.<br> 
 
 ```C
 cd ~/opencv_build/opencv
 mkdir build && cd build
 ```
 
-Set the build system with CMake.
+Set the build system with CMake.<br>
 ```C
 cmake -D CMAKE_BUILD_TYPE=RELEASE \
     -D CMAKE_INSTALL_PREFIX=/usr/local \
@@ -138,7 +138,7 @@ cmake -D CMAKE_BUILD_TYPE=RELEASE \
 ```
 
 <b><u>Step-8</u></b>:<br>
-After the build is over you will see 
+After the build is over you will see <br>
 
 ```C
 ...
@@ -169,7 +169,7 @@ Output
 ```
 
 <b><u>Step-10</u></b>:<br>
-Now install opencv using
+Now install opencv using<br>
 
 ```C
 sudo make install 
@@ -187,13 +187,13 @@ Output
 
 
 <b><u>Step-11</u></b>:<br>
-Check whether opencv is properly installed or not using
+Check whether opencv is properly installed or not using<br>
 
 ```C
 pkg-config --modversion opencv4
 ```
 
-If you have installed version 4.5.1,you will see
+If you have installed version 4.5.1,you will see<br>
 ```C
 Output
 4.5.1
@@ -201,12 +201,12 @@ Output
 
 
 <b><u>Step-12</u></b>:<br>
-For testing opencv open the Xlaunch and follow step-4B for setting display number and open the terminal to type
+For testing opencv open the Xlaunch and follow step-4B for setting display number and open the terminal to type<br>
 
 ```C
 export DISPLAY=:0
 ```
-Use the polygon.cpp in this repository to test and you will see output.jpg and output1.jpg provided in this repo.
+Use the polygon.cpp in this repository to test and you will see output.jpg and output1.jpg provided in this repo.<br>
 
 Compile and execute the code using following commands<br>
 ```C
@@ -214,17 +214,17 @@ g++ polygon.cpp -o a -pthread -std=c++11 `pkg-config --cflags --libs opencv4`
 ./a
 ```
 
-If above command doesn't work use
+If above command doesn't work use<br>
 
 ```C
 g++ polygon.cpp -o a -pthread -std=c++11 `pkg-config --cflags --libs opencv`
 ./a
 ```
-If you see any error like <b>cannot open shared object file Error</b> use the command 
+If you see any error like <b>cannot open shared object file Error</b> use the command<br> 
 ```C
 sudo /sbin/ldconfig -v
 ```
-and then compile the code.
+and then compile the code.<br>
  
 
 
