@@ -50,7 +50,6 @@ sudo apt-get install x11-apps
 <b><u>Step-4B</u></b>:<br>
 To check whether the X-server is working or not open the X-Launch app.You will see the following screen.<br>
 [Screen-1](http://i.imgur.com/V0BpaA5.png?1)<br>
-
 Change the number -1 to 0 and press on next button.<br>
 You will see the following screen.<br>
 [Screen-2](https://lh3.googleusercontent.com/proxy/xZBOO6GL79i8NTAeBMKykL_5ugR-oc9CKWoZ22UDQdiidaaz5Yi2Pg4AGcnJ9TQAen1zl9Qxg5qcfF1pWZiBNNoGVpAzrQgOd5o8SLq8Sg)<br>
