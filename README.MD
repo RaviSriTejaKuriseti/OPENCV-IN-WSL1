@@ -220,6 +220,11 @@ If above command doesn't work use
 g++ polygon.cpp -o a -pthread -std=c++11 `pkg-config --cflags --libs opencv`
 ./a
 ```
+If you see any error like <b>cannot open shared object file Error</b> use the command 
+```C
+sudo /sbin/ldconfig -v
+```
+and then compile the code.
  
 
 
