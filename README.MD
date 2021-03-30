@@ -24,7 +24,7 @@ For ease of convenience use Windows Terminal that can be downloaded from this li
 [Windows Terminal](https://www.microsoft.com/en-in/p/windows-terminal/9n0dx20hk701?rtc=1#activetab=pivot:overviewtab)
 
 <b><u>Step-3</u></b>:<br>
-Open your terminal and run the following commands to install Git,GNU-Make and GCC-Compiler. Enter your unix password created earlier when prompted to enter.
+Open your terminal and run the following commands to install Git,CMake,GNU-Make and GCC-Compiler. Enter your unix password created earlier when prompted to enter.
 
 ```C
 sudo apt-get update
@@ -34,6 +34,7 @@ sudo apt-get upgrade
 ```C
 sudo apt-get install git
 sudo apt-get install make
+sudo apt-get install cmake
 sudo apt install build-essential
 ```
 
