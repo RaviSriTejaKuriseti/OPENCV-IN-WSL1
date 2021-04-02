@@ -42,7 +42,7 @@ sudo apt install build-essential
 Since there is no GUI Support for WSL directly,we will use an X-Server preferably XLaunch which can be downloaded from this link.<br>
 [Xserver](https://sourceforge.net/projects/vcxsrv/)
 
-Open the Linux-Terminal and type the following command for supporting X-Server.
+Open the Linux-Terminal and type the following command for installing X-11 apps package that support X-Server.
 
 ```C
 sudo apt-get install x11-apps
